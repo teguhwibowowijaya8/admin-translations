@@ -38,9 +38,9 @@
         "illuminate/database": "^6.0|^7.0|^8.0",
         "illuminate/support": "^6.0|^7.0|^8.0",
         "illuminate/console": "^6.0|^7.0|^8.0",
-        "brackets/admin-ui": "dev-main",
-        "brackets/admin-listing": "dev-main",
-        "brackets/translatable": "dev-main"
+        "brackets/admin-ui": "dev-adjustment",
+        "brackets/admin-listing": "dev-adjustment",
+        "brackets/translatable": "dev-adjustment"
     },
     "require-dev": {
         "orchestra/testbench": "~4.0|~5.0|~6.0",
@@ -68,5 +68,19 @@
         "branch-alias": {
             "dev-master": "4.0-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/teguhwibowowijaya8/admin-ui"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/teguhwibowowijaya8/admin-listing"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/teguhwibowowijaya8/translatable"
+        }
+    ]
 }
