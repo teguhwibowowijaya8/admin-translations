@@ -61,7 +61,7 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
+            "dont-discover": [
                 "Brackets\\AdminTranslations\\AdminTranslationsServiceProvider"
             ]
         },
